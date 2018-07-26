@@ -1,3 +1,12 @@
 body{
     background: #f8f8f8;
 }
+/* menu */
+.menu a{
+font: italic 25px Tahoma, serif;
+color:darkolivegreen;
+}
+
+.menu li{
+    list-style-type: none;
+}
