@@ -37,3 +37,10 @@ color:cadetblue;
     line-height: 16px;
     
 }
+/* detailed description */
+.detailed_description{
+    color: #484343;
+    font: 400 16px Verdana;
+     line-height: 24px;
+    text-align: left;
+}
