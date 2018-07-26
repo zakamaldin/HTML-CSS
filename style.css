@@ -7,7 +7,7 @@ h1{
 }
 /* menu */
 .menu a{
-font: italic 25px Verdana, serif;
+font: italic 25px Verdana;
 color:cadetblue;
 }
 
@@ -41,6 +41,12 @@ color:cadetblue;
 .detailed_description{
     color: #484343;
     font: 400 16px Verdana;
-     line-height: 24px;
+    line-height: 24px;
     text-align: left;
+}
+/* specification */
+.specification{
+    font: 18px Tahoma;
+    color:darkslategrey;
+    list-style-image: url('img/arrow.svg');
 }
