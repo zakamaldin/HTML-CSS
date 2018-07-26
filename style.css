@@ -10,3 +10,9 @@ color:darkolivegreen;
 .menu li{
     list-style-type: none;
 }
+/* footer */
+.footer{
+    text-align:right;
+    font: 12px Verdana;
+    
+}
