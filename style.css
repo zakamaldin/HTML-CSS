@@ -30,3 +30,10 @@ color:cadetblue;
     font: 400 18px Verdana;
     background-color: #eaeaea;
 }
+/*  short description */
+.short_description{
+    color: #707070;
+    font: italic 400 14px Verdana;
+    line-height: 16px;
+    
+}
