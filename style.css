@@ -2,12 +2,12 @@ body{
     background: #f8f8f8;
 }
 h1{
-    font-family: Tahoma;
+    font-family: Verdana;
     text-align: center;
 }
 /* menu */
 .menu a{
-font: italic 25px Tahoma, serif;
+font: italic 25px Verdana, serif;
 color:cadetblue;
 }
 
@@ -23,4 +23,10 @@ color:cadetblue;
 /* product_img */
 .product_img{
     width: 100px;
+}
+/* product heading */
+.description_heading{
+    color:black;
+    font: 400 18px Verdana;
+    background-color: #eaeaea;
 }
