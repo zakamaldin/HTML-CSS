@@ -19,6 +19,11 @@ color:cadetblue;
 .menu a:hover {
     color: red;
 }
+
+.logo img{
+    width: 100px;
+    float: left;    
+}
 /* end menu */
 
 /* footer */
