@@ -16,6 +16,9 @@ color:cadetblue;
 .menu li{
     list-style-type: none;
 }
+.menu a:hover {
+    color: red;
+}
 /* end menu */
 
 /* footer */
