@@ -84,6 +84,9 @@ color:cadetblue;
     display: inline;
     font: 14px Tahoma;
 }
+.feedback input[type=text], textarea{
+     text-transform: capitalize;
+}
 .feedback input[type="email"]:focus {
     background-color: lightgreen;
     color: blue;
