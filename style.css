@@ -84,6 +84,10 @@ color:cadetblue;
     display: inline;
     font: 14px Tahoma;
 }
+.feedback input[type="email"]:focus {
+    background-color: lightgreen;
+    color: blue;
+}
 .feedback input[type=submit]{
     width: 100px;
     background-color: lightblue;
