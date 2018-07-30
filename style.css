@@ -104,9 +104,7 @@ h1 {
 
 /* feedback */
 
-.feedback input,
-textarea,
-fieldset {
+.feedback input, textarea, fieldset {
     width: 200px;
     border: 2px solid lightblue;
     border-radius: 4px;
@@ -116,8 +114,7 @@ fieldset {
     font: 14px Tahoma;
 }
 
-.feedback input[type=text],
-textarea {
+.feedback input[type=text], textarea {
     text-transform: capitalize;
 }
 
@@ -133,9 +130,21 @@ textarea {
     color: black;
 }
 
+.feedback input[type=submit]:hover {
+    width: 100px;
+    background-color: skyblue;
+    border: none;
+    color: black;
+}
 .feedback input[type=reset] {
     width: 100px;
     background-color: lightcoral;
+    border: none;
+    color: black;
+}
+.feedback input[type=reset]:hover {
+    width: 100px;
+    background-color:firebrick;
     border: none;
     color: black;
 }
