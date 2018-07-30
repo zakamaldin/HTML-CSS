@@ -82,8 +82,7 @@ h1 {
     list-style-image: url('img/arrow.svg');
 }
 
-.product_table table,
-td {
+.product_table table, td {
     border: 1px solid #000;
     border-collapse: collapse;
     text-align: center;
@@ -93,6 +92,13 @@ td {
     height: 50px;
     background-color: yellow !important;
 }
+
+.product_page p:first-letter {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5em; 
+    font-style: normal;
+    color: darkblue; 
+   }
 
 /* end product */
 
