@@ -99,7 +99,9 @@ h1 {
     font-style: normal;
     color: darkblue; 
    }
-
+.product_table td:hover{
+    background-color: lightcoral;
+}
 /* end product */
 
 /* feedback */
