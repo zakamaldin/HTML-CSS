@@ -1,86 +1,102 @@
-body{
+body {
     background: #f8f8f8;
     font: 400 16px Verdana;
 }
-h1{
+
+h1 {
     text-align: center;
 }
 
 /* menu */
-.menu a{
-font-style: italic;
-font-size: 25px;
-color:cadetblue;
+
+.menu a {
+    font-style: italic;
+    font-size: 25px;
+    color: cadetblue;
 }
 
-.menu li{
+.menu li {
     list-style-type: none;
 }
+
 .menu a:hover {
     color: red;
 }
 
-.logo img{
+.logo img {
     width: 100px;
-    float: left;    
+    float: left;
 }
+
 /* end menu */
 
 /* footer */
-.footer{
-    text-align:right;
+
+.footer {
+    text-align: right;
     font-size: 12px;
-    
+
 }
+
 /* end footer */
 
 /* product */
-.product_img{
+
+.product_img {
     width: 100px;
     outline: 2px solid #1896FF;
 }
 
-.product_link{
+.product_link {
     font-size: 18px;
-    color:darkslategrey;
+    color: darkslategrey;
 }
 
-.description_heading{
-    color:black;
+.description_heading {
+    color: black;
     font-size: 18px;
     background-color: #eaeaea;
 }
 
-.short_description{
+.short_description {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
-    
+
 }
 
-.detailed_description{
+.detailed_description {
     color: #484343;
     line-height: 24px;
     text-align: left;
 }
 
-.specification{
+.specification {
     font: 18px Tahoma;
-    color:darkslategrey;
+    color: darkslategrey;
     list-style-image: url('img/arrow.svg');
 }
-.product_table table,td{
-    border: 1px solid #000;    
+
+.product_table table,
+td {
+    border: 1px solid #000;
     border-collapse: collapse;
     text-align: center;
 }
-/* end product */
 
+.first_table_row{
+    height: 50px;
+    background-color: yellow !important;
+}
+
+/* end product */
 
 /* feedback */
 
-.feedback input, textarea, fieldset{
+.feedback input,
+textarea,
+fieldset {
     width: 200px;
     border: 2px solid lightblue;
     border-radius: 4px;
@@ -89,31 +105,39 @@ color:cadetblue;
     display: inline;
     font: 14px Tahoma;
 }
-.feedback input[type=text], textarea{
-     text-transform: capitalize;
+
+.feedback input[type=text],
+textarea {
+    text-transform: capitalize;
 }
+
 .feedback input[type="email"]:focus {
     background-color: lightgreen;
     color: blue;
 }
-.feedback input[type=submit]{
+
+.feedback input[type=submit] {
     width: 100px;
     background-color: lightblue;
     border: none;
     color: black;
 }
-.feedback input[type=reset]{
+
+.feedback input[type=reset] {
     width: 100px;
     background-color: lightcoral;
     border: none;
     color: black;
 }
+
 /* end feedback*/
 
 /* about */
-.about{
+
+.about {
     font: 18px Tahoma;
-    color:black;
+    color: black;
     list-style-image: url('img/arrow.svg');
 }
+
 /* end about */
