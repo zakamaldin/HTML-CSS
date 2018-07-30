@@ -47,6 +47,10 @@ h1 {
     outline: 2px solid #1896FF;
 }
 
+.product_img:hover{
+    outline: none;
+}
+
 .product_link {
     font-size: 18px;
     color: darkslategrey;
