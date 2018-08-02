@@ -8,7 +8,9 @@ h1 {
 }
 
 /* menu */
-
+.header{
+    border-bottom: 1px solid #000;
+}
 .menu a {
     font-style: italic;
     font-size: 25px;
@@ -35,6 +37,7 @@ h1 {
 .footer {
     text-align: right;
     font-size: 12px;
+    border-top: 1px solid #000;
 
 }
 
