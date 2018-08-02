@@ -7,27 +7,56 @@ h1 {
     text-align: center;
 }
 
-/* menu */
-.header{
-    border-bottom: 1px solid #000;
+/* container */
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
 }
+
+/* menu */
+
+.header {
+    display: flex;
+    height: 150px;
+    border-bottom: 1px solid #000;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    width: 134px;
+    height: 134px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 110px;
+    justify-content: space-between;
+    width: 400px;
+    }
+
+.menu li{
+    
+      
+}   
 .menu a {
     font-style: italic;
     font-size: 25px;
     color: cadetblue;
 }
 
-.menu li {
-    list-style-type: none;
-}
 
 .menu a:hover {
     color: red;
-}
-
-.logo img {
-    width: 100px;
-    float: left;
 }
 
 /* end menu */
@@ -50,7 +79,7 @@ h1 {
     outline: 2px solid #1896FF;
 }
 
-.product_img:hover{
+.product_img:hover {
     outline: none;
 }
 
@@ -85,31 +114,36 @@ h1 {
     list-style-image: url('img/arrow.svg');
 }
 
-.product_table table, td {
+.product_table table,
+td {
     border: 1px solid #000;
     border-collapse: collapse;
     text-align: center;
 }
 
-.first_table_row{
+.first_table_row {
     height: 50px;
     background-color: yellow !important;
 }
 
 .product_page p:first-letter {
     font-family: "Times New Roman", Times, serif;
-    font-size: 2.5em; 
+    font-size: 2.5em;
     font-style: normal;
-    color: darkblue; 
-   }
-.product_table td:hover{
+    color: darkblue;
+}
+
+.product_table td:hover {
     background-color: lightcoral;
 }
+
 /* end product */
 
 /* feedback */
 
-.feedback input, textarea, fieldset {
+.feedback input,
+textarea,
+fieldset {
     width: 200px;
     border: 2px solid lightblue;
     border-radius: 4px;
@@ -119,7 +153,8 @@ h1 {
     font: 14px Tahoma;
 }
 
-.feedback input[type=text], textarea {
+.feedback input[type=text],
+textarea {
     text-transform: capitalize;
 }
 
@@ -141,15 +176,17 @@ h1 {
     border: none;
     color: black;
 }
+
 .feedback input[type=reset] {
     width: 100px;
     background-color: lightcoral;
     border: none;
     color: black;
 }
+
 .feedback input[type=reset]:hover {
     width: 100px;
-    background-color:firebrick;
+    background-color: firebrick;
     border: none;
     color: black;
 }
