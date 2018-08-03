@@ -246,7 +246,13 @@ textarea {
 }
 
 /* end about */
-
+/* map */
+.map{
+    display: flex;
+    height: 374px;
+    width: 100%;
+}
+/* map end */
 
 
 /* footer */
