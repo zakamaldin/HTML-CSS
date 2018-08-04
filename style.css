@@ -7,61 +7,83 @@ h1 {
     text-align: center;
 }
 
-/* menu */
+/* header */
 
-.menu a {
-    font-style: italic;
-    font-size: 25px;
-    color: cadetblue;
+.container {
+    width: 1250px;
+    margin: 0 auto;
 }
 
-.menu li {
-    list-style-type: none;
+.header {
+    display: flex;
+    height: 150px;
+    border-bottom: 1px solid #000;
+    justify-content: space-between;
+    background-image: url(img/mountain.png);
+    background-position: 44% 60.5%;
 }
 
-.menu a:hover {
-    color: red;
+.logo {
+    display: block;
+    width: 134px;
+    height: 134px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .logo img {
-    width: 100px;
-    float: left;
+    width: 100%;
 }
 
-/* end menu */
 
-/* footer */
-
-.footer {
-    text-align: right;
-    font-size: 12px;
-
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 110px;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 15px;
+}
+.menu a {
+    font-style: italic;
+    font-size: 25px;
+    color: darkseagreen;
 }
 
-/* end footer */
 
-/* product */
-
-.product_img {
-    width: 100px;
-    outline: 2px solid #1896FF;
+.menu a:hover {
+    color: ivory;
 }
 
-.product_img:hover{
-    outline: none;
+/* end header */
+
+/* catalog content */
+.catalog_items{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    width: 250px;
 }
 
-.product_link {
+.product_link{
+    width: 254px;
+    text-align: center;
     font-size: 18px;
     color: darkslategrey;
 }
 
-.description_heading {
-    color: black;
-    font-size: 18px;
-    background-color: #eaeaea;
-}
+/* catalog content end */
 
+/* product content */
+.product_with_description {
+    display: flex;
+    height: 275px;
+}
+.product_description {
+    margin-left: 200px;
+    width: 800px;
+}
 .short_description {
     color: #707070;
     font-size: 14px;
@@ -69,6 +91,63 @@ h1 {
     line-height: 16px;
 
 }
+.product_img {
+    height: 250px;
+    width: 250px;
+    border: 2px solid #1896FF;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.product_img img{ 
+    height: 100%;
+    max-width: 250px;
+}
+.product_img a{
+    display: block;
+    height: 100%;
+}
+.product_img:hover {
+    border: 2px solid transparent;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.buy_btn {
+    padding: 4px 6px;
+    width: 200px;
+    height: 40px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid orange;
+    border-radius: 4px;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.buy_btn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.buy_btn:active {
+    background-color: darkorange;
+    border-color: darkorange;
+    color: white;
+}
+
+
+.description_heading {
+    color: black;
+    font-size: 18px;
+    background-color: #eaeaea;
+}
+
+
 
 .detailed_description {
     color: #484343;
@@ -82,31 +161,35 @@ h1 {
     list-style-image: url('img/arrow.svg');
 }
 
-.product_table table, td {
+.product_table table,
+td {
     border: 1px solid #000;
     border-collapse: collapse;
     text-align: center;
 }
 
-.first_table_row{
+.first_table_row {
     height: 50px;
     background-color: yellow !important;
 }
 
-.product_page p:first-letter {
+.content p:first-letter {
     font-family: "Times New Roman", Times, serif;
-    font-size: 2.5em; 
+    font-size: 2.5em;
     font-style: normal;
-    color: darkblue; 
-   }
-.product_table td:hover{
+    color: darkblue;
+}
+
+.product_table td:hover {
     background-color: lightcoral;
 }
-/* end product */
+/* end product content */
 
 /* feedback */
 
-.feedback input, textarea, fieldset {
+.feedback input,
+textarea,
+fieldset {
     width: 200px;
     border: 2px solid lightblue;
     border-radius: 4px;
@@ -116,7 +199,8 @@ h1 {
     font: 14px Tahoma;
 }
 
-.feedback input[type=text], textarea {
+.feedback input[type=text],
+textarea {
     text-transform: capitalize;
 }
 
@@ -138,18 +222,21 @@ h1 {
     border: none;
     color: black;
 }
+
 .feedback input[type=reset] {
     width: 100px;
     background-color: lightcoral;
     border: none;
     color: black;
 }
+
 .feedback input[type=reset]:hover {
     width: 100px;
-    background-color:firebrick;
+    background-color: firebrick;
     border: none;
     color: black;
 }
+
 
 /* end feedback*/
 
@@ -162,3 +249,33 @@ h1 {
 }
 
 /* end about */
+/* map */
+.map{
+    display: flex;
+    height: 374px;
+    width: 100%;
+}
+/* map end */
+
+
+/* footer */
+
+.footer {
+    display: block;
+    height: 50px;
+    margin-top: 15px;
+    text-align: right;
+    font-size: 12px;
+    border-top: 1px solid #000;
+    background: #b3d4fc;
+    color: black;
+
+}
+
+.footer p {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+
+/* end footer */
