@@ -420,7 +420,7 @@ a {
 
 .trends .item p {
     top: 250px;
-}    
+}
 
 
 .slider2 {
@@ -434,4 +434,43 @@ a {
     font-weight: 700;
     line-height: 48px;
     text-align: left;
+}
+
+.exclusive {
+    height: 810px;
+    position: relative;
+    display: flex;
+}
+
+
+.exclusive .promo-product {
+    background-image: url(img/promo/promo-3.jpg);
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 570px;
+    position: absolute;
+    top: 120px;
+}
+
+.exclusive .shop-case {
+    width: 570px;
+    height: 570px;
+    position: relative;
+    top: 120px;
+    left: 600px;
+    
+
+}
+
+.exclusive .item {
+    display: flex;
+    top: 0;
+}
+
+
+.exclusive h3 {
+}
+.exclusive h2 {
+}
+.exclusive p {
 }
