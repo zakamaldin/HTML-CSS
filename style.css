@@ -248,12 +248,10 @@ a {
 .shop-case {
     display: flex;
     justify-content: space-between;
-
-
+    flex-wrap: wrap;
 }
 
 .shop-case img {
-    width: 100%;
     transition: all 0.5s;
     opacity: 1;
     backface-visibility: hidden;
@@ -262,17 +260,18 @@ a {
 .item {
     width: 270px;
     height: 270px;
-    margin-top: 219px;
+    top: 219px;
     transition: all 0.5s;
     display: flex;
     position: relative;
+    margin-bottom: 30px;
 }
 
-.shop-case .item:hover {
+.item:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.item:hover .product-image {
+.item:hover .product-image{
     opacity: 0.3;
 }
 
@@ -287,9 +286,10 @@ a {
     text-align: center;
     display: flex;
     position: absolute;
-    width: 270px;
+    width: 100%;
     height: 100%;
     display: flex;
+    transition: all 0.5s;
 }
 
 .middle img {
@@ -299,6 +299,29 @@ a {
 
 }
 
+
+
+.middle h3 {
+    color: #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    padding-left: 58px;
+    padding-right: 58px;
+    top: 129px;
+    display: block;
+    position: absolute;
+    }
+
+.middle p {
+    color: #6c6c6c;
+    font-size: 13.94px;
+    font-weight: 300;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 169px;
+    display: block;
+    position: absolute;
+    }
 .small-order-link {
     width: 48px;
     height: 48px;
@@ -308,27 +331,6 @@ a {
     padding: 0;
     opacity: 1;
 }
-
-.middle h3 {
-    color: #212121;
-    font-size: 21.91px;
-    font-weight: 700;
-    margin-left: 63px;
-    margin-top: 129px;
-    display: block;
-    position: absolute;
-}
-
-.middle p {
-    color: #6c6c6c;
-    font-size: 13.94px;
-    font-weight: 300;
-    margin-left: 32px;
-    margin-top: 169px;
-    display: block;
-    position: absolute;
-}
-
 .promo {
     display: flex;
     height: 683px;
@@ -353,6 +355,7 @@ a {
 .promo-product h3 {
     padding-bottom: 18px;
     color: #1e88e5;
+    color: #1e88e5;
     font-size: 18px;
     font-weight: 700;
     line-height: 48px;
@@ -362,18 +365,55 @@ a {
 
 .promo-product h2 {
     padding-bottom: 24px;
-
-color: #212121;
-font-size: 36px; 
-font-weight: 700;
-text-align: left;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
 }
 
 .promo-product p {
     padding-bottom: 34px;
-color: #6c6c6c;
-font-size: 13.99px; 
-font-weight: 300;
-text-align: left;
+    color: #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    text-align: left;
+    width: 374px;
+}
+
+.trends {
+    height: 1108px;
+    position: relative;
+
+
+}
+
+.trends .small-order-link {
+    margin-left: 161px;
+    margin-top: 85px;
+}
+
+.trends h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    height: 35px;
+    position: absolute;
+    top: 119px;
+    padding-bottom: 64px;
+}
+.trends .item {
+    width: 370px;
+    height: 370px;
+}
+
+
+.item h2{
+    top: 170px;
+    padding-left: 71px;
+    padding-right: 71px;
+}
+.item p{
+    top: 250px;
 }
 
