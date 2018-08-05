@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    position: relative;
+    height: 800px;
+    background-image: url(img/slider.jpg)
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between
+}
+
+.logo {
+    margin-top: 63px;
+}
+
+.menu {
+    display: flex;
+    margin-top: 57px;
+    position: absolute;
+    left: 530px;
+
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    padding: 10px 13px;
+    transition: all 0.2s;
+}
+.menu a:hover{
+    color: #8c8c8c;
+    border-bottom: 3px solid #8c8c8c;
+    
+}
+
+.menu .active-link {
+    color: #212121 !important;
+    font-weight: 700;
+    border-bottom: 3px solid black !important;
+}
+
+.menu .search-bar {
+    background-image: url('img/search.svg');
+    width: 25px;
+    height: 38px;
+    border: 2px solid transparent;
+    background-color: #f0f0f0;
+    background-position: 5px 6px;
+    background-repeat: no-repeat;
+    transition: 0.5s; 
+    padding-left: 35px;
+    outline: none;
+}
+
+.menu .search-bar:hover, .search-bar:focus {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.slider-text {
+    margin-top: 288px;
+}
+
+.slider-text h3 {
+    font-family: Montserrat;
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.slider-text h2 {
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+}
+
+.slider-text p {
+    width: 458px;
+    font-family: Montserrat;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.slider-text .order-link {
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    text-decoration: none;
+    border-radius: 22.5px;
+    transition: 0.5s;
+}
+.order-link:hover{
+    background-color: #85aeb8;
+    color: aliceblue;
+    
+}
+
+.paggination {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 1170px;
+    bottom: 19px;
+    align-items: center;
+}
+
+.circle {
+    display: block;
+    background-color: rgba(33, 33, 33, 0.2);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+.circle:hover {
+    background-color: #212121;
+
+}
+
+.active-circle {
+    background-color: #212121;
+    width: 40px;
+    height: 40px;
+}
+
+ 
