@@ -318,6 +318,7 @@ a {
     display: block;
     position: absolute;
 }
+
 .middle p {
     color: #6c6c6c;
     font-size: 13.94px;
@@ -327,3 +328,52 @@ a {
     display: block;
     position: absolute;
 }
+
+.promo {
+    display: flex;
+    height: 683px;
+}
+
+.promo1 {
+    background-image: url(img/promo/promo-1.jpg);
+}
+
+.promo2 {
+    background-image: url(img/promo/promo-2.jpg);
+}
+
+.promo-product {
+    padding-left: 52px;
+    padding-right: 52px;
+    width: 683px;
+    padding-top: 228px;
+
+}
+
+.promo-product h3 {
+    padding-bottom: 18px;
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.promo-product h2 {
+    padding-bottom: 24px;
+
+color: #212121;
+font-size: 36px; 
+font-weight: 700;
+text-align: left;
+}
+
+.promo-product p {
+    padding-bottom: 34px;
+color: #6c6c6c;
+font-size: 13.99px; 
+font-weight: 300;
+text-align: left;
+}
+
