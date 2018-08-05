@@ -412,13 +412,13 @@ a {
 }
 
 
-.item h2 {
+.trends .item h2 {
     top: 170px;
     padding-left: 71px;
     padding-right: 71px;
 }
 
-.item p {
+.trends .item p {
     top: 250px;
 }    
 
