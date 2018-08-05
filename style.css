@@ -6,6 +6,11 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -49,15 +54,15 @@ body {
     color: #8c8c8c;
     font-size: 14px;
     font-weight: 300;
-    text-decoration: none;
     display: block;
     padding: 10px 13px;
     transition: all 0.2s;
 }
-.menu a:hover{
+
+.menu a:hover {
     color: #8c8c8c;
     border-bottom: 3px solid #8c8c8c;
-    
+
 }
 
 .menu .active-link {
@@ -74,12 +79,13 @@ body {
     background-color: #f0f0f0;
     background-position: 5px 6px;
     background-repeat: no-repeat;
-    transition: 0.5s; 
+    transition: 0.5s;
     padding-left: 35px;
     outline: none;
 }
 
-.menu .search-bar:hover, .search-bar:focus {
+.menu .search-bar:hover,
+.search-bar:focus {
     width: 100%;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -118,7 +124,7 @@ body {
     margin-bottom: 32px;
 }
 
-.slider-text .order-link {
+.order-link {
     font-family: Montserrat;
     color: #212121;
     font-size: 18px;
@@ -126,18 +132,26 @@ body {
     text-align: center;
     background-color: #ffffff;
     box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
-    width: 212px;
+    width: 181px;
     height: 45px;
     line-height: 45px;
     display: block;
-    text-decoration: none;
     border-radius: 22.5px;
     transition: 0.5s;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
 }
-.order-link:hover{
+
+.order-link img {
+    width: 9px;
+    padding-left: 22px;
+    padding-top: 16px;
+}
+
+.order-link:hover {
     background-color: #85aeb8;
     color: aliceblue;
-    
+
 }
 
 .paggination {
@@ -171,4 +185,145 @@ body {
     height: 40px;
 }
 
- 
+
+.content {
+    height: 609px;
+    position: relative;
+}
+
+
+.sort {
+    display: flex;
+    position: absolute;
+    top: 99px;
+}
+
+.sort li {
+    list-style-type: none;
+}
+
+.sort a {
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    padding: 21px 15.5px;
+    border-bottom: 1px solid #6c6c6c;
+    display: block;
+    line-height: 25px;
+
+}
+
+.sort .active-sort {
+    color: #212121 !important;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 3px solid #212121 !important;
+    text-align: left;
+}
+
+.sort a:hover {
+    border-bottom: 3px solid #6c6c6c;
+    transition: all 0.2s;
+}
+
+.explore {
+    display: block;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 138px;
+    right: 98px;
+}
+
+.explore img {
+    width: 9px;
+    padding-left: 12px;
+}
+
+.shop-case {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.shop-case img {
+    width: 100%;
+    transition: all 0.5s;
+    opacity: 1;
+    backface-visibility: hidden;
+}
+
+.item {
+    width: 270px;
+    height: 270px;
+    margin-top: 219px;
+    transition: all 0.5s;
+    display: flex;
+    position: relative;
+}
+
+.shop-case .item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item:hover .product-image {
+    opacity: 0.3;
+}
+
+.item:hover .middle {
+    opacity: 1;
+}
+
+
+.middle {
+    transition: all 0.5s;
+    opacity: 0;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    width: 270px;
+    height: 100%;
+    display: flex;
+}
+
+.middle img {
+    width: 12px;
+    height: 20px;
+    padding: 14px 18px;
+
+}
+
+.small-order-link {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    margin-left: 111px;
+    margin-top: 62px;
+    padding: 0;
+    opacity: 1;
+}
+
+.middle h3 {
+    color: #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    margin-left: 63px;
+    margin-top: 129px;
+    display: block;
+    position: absolute;
+}
+.middle p {
+    color: #6c6c6c;
+    font-size: 13.94px;
+    font-weight: 300;
+    margin-left: 32px;
+    margin-top: 169px;
+    display: block;
+    position: absolute;
+}
