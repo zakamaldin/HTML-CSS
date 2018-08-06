@@ -495,3 +495,20 @@ text-align: left;
 .app a:hover img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.footer {
+    height: 384px;
+    position: relative;
+    background-color:  #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+}
+.contact {
+    width: 107px;
+}
+.useful-info {
+    width: 422px;
+}
+
+.subs {
+    width: 363px;
+}
