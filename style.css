@@ -97,7 +97,6 @@ a {
 }
 
 .slider-text h3 {
-    font-family: Montserrat;
     color: #43a047;
     font-size: 18px;
     font-weight: 700;
@@ -106,7 +105,6 @@ a {
 }
 
 .slider-text h2 {
-    font-family: Montserrat;
     color: #212121;
     font-size: 62px;
     font-weight: 100;
@@ -468,9 +466,32 @@ a {
 }
 
 
-.exclusive h3 {
+.app {
+    height: 516px;
+     position: relative;
+    background-image: url(img/back.jpg)
 }
-.exclusive h2 {
+
+.app .slider-text                
+ {
+     margin-top: 125px;
 }
-.exclusive p {
+
+.app h3 {
+color: #6c6c6c;
+font-size: 18px; 
+font-weight: 700; 
+text-align: left;
+    margin-bottom: 22px;
+}
+
+.app h2 {
+    width: 407px;
+    margin-bottom: 26px;
+}
+.app p {
+    font-size: 14px;
+}
+.app a:hover img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
