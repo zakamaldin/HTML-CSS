@@ -456,7 +456,7 @@ a {
     position: relative;
     top: 120px;
     left: 600px;
-    
+
 
 }
 
@@ -468,20 +468,19 @@ a {
 
 .app {
     height: 516px;
-     position: relative;
+    position: relative;
     background-image: url(img/back.jpg)
 }
 
-.app .slider-text                
- {
-     margin-top: 125px;
+.app .slider-text {
+    margin-top: 125px;
 }
 
 .app h3 {
-color: #6c6c6c;
-font-size: 18px; 
-font-weight: 700; 
-text-align: left;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
     margin-bottom: 22px;
 }
 
@@ -489,26 +488,91 @@ text-align: left;
     width: 407px;
     margin-bottom: 26px;
 }
+
 .app p {
     font-size: 14px;
 }
-.app a:hover img{
+
+.app a:hover img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .footer {
-    height: 384px;
+    height: 264px;
     position: relative;
-    background-color:  #f7f7f7;
+    background-color: #f7f7f7;
     display: flex;
-    justify-content: space-between;
+    padding-top: 120px;
 }
+
+.footer h3 {
+    padding-bottom: 24px;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+
 .contact {
-    width: 107px;
+    width: 220px;
+    margin-right: 80px;
 }
+
+.contact p {
+    padding-bottom: 24px;
+
+}
+
 .useful-info {
-    width: 422px;
+    width: 420px;
+    margin-right: 87px;
+
+}
+
+.useful-info a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+
+.useful-info .block {
+    display: flex;
+    
+}
+
+.block-1 a {
+    margin-right: 103px;
+    display: block;
+    width: 132px;
+}
+
+.block-2 a {
+    display: block;
+    width: 187px;
+    
 }
 
 .subs {
-    width: 363px;
+    width: 358px;
+}
+
+.subs p {
+    margin-bottom: 26px;
+}
+
+.subs input {
+    width: 370px;
+    height: 48px;
 }
