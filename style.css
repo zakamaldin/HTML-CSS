@@ -579,10 +579,11 @@ a {
 
 .copyrights {
     position: absolute;
-    bottom: 39px;
+    bottom: 29px;
     display: flex;
     justify-content: space-between;
     width: 1170px;
+    align-items: center;
     
 }
 
