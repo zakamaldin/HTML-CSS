@@ -524,8 +524,8 @@ a {
 }
 
 .contact {
-    width: 220px;
-    margin-right: 80px;
+    width: 221px;
+    margin-right: 67px;
 }
 
 .contact p {
@@ -549,11 +549,11 @@ a {
 
 .useful-info .block {
     display: flex;
-    
+
 }
 
 .block-1 a {
-    margin-right: 103px;
+    margin-right: 78px;
     display: block;
     width: 132px;
 }
@@ -561,7 +561,7 @@ a {
 .block-2 a {
     display: block;
     width: 187px;
-    
+
 }
 
 .subs {
@@ -575,4 +575,39 @@ a {
 .subs input {
     width: 370px;
     height: 48px;
+}
+
+.copyrights {
+    position: absolute;
+    bottom: 39px;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    
+}
+
+.copyrights h4 {
+
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: right;
+    display: block;
+}
+
+.copyrights .social-links {
+    background-image: url(img/social-links.png);
+    width: 129px;
+    height: 28px;
+    display: flex;
+    
+}
+
+.copyrights a {
+    
+    width: 28px;
+    height: 28px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
