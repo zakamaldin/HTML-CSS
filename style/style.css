@@ -21,7 +21,7 @@ a {
 .slider {
     position: relative;
     height: 800px;
-    background-image: url(img/slider.jpg)
+    background-image: url(../img/slider.jpg)
 }
 
 .padding-site {
@@ -72,7 +72,7 @@ a {
 }
 
 .menu .search-bar {
-    background-image: url('img/search.svg');
+    background-image: url('../img/search.svg');
     width: 25px;
     height: 38px;
     border: 2px solid transparent;
@@ -139,6 +139,13 @@ a {
     transition: 0.5s;
     padding-left: 16.5px;
     padding-right: 16.5px;
+}
+.order-link:active{
+    position: relative;
+    box-shadow: 0px 0px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    top: 2px;
+    
+    
 }
 
 .order-link img {
@@ -228,7 +235,7 @@ a {
 
 .explore {
     display: block;
-    color: #212121;
+    color: #6c6c6c;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -237,8 +244,14 @@ a {
     position: absolute;
     top: 138px;
     right: 98px;
+    transition: all 0.5s;
+    border-bottom: 1px solid #6c6c6c;
 }
-
+.explore:hover {
+    border-bottom: 2px solid #212121;
+    color: #212121;
+    
+}
 .explore img {
     width: 9px;
     padding-left: 12px;
@@ -338,11 +351,11 @@ a {
 }
 
 .promo1 {
-    background-image: url(img/promo/promo-1.jpg);
+    background-image: url(../img/promo/promo-1.jpg);
 }
 
 .promo2 {
-    background-image: url(img/promo/promo-2.jpg);
+    background-image: url(../img/promo/promo-2.jpg);
 }
 
 .promo-product {
@@ -422,7 +435,7 @@ a {
 
 
 .slider2 {
-    background-image: url(img/slider-2.jpg)
+    background-image: url(../img/slider-2.jpg)
 }
 
 .slider2 h3 {
@@ -442,7 +455,7 @@ a {
 
 
 .exclusive .promo-product {
-    background-image: url(img/promo/promo-3.jpg);
+    background-image: url(../img/promo/promo-3.jpg);
     background-repeat: no-repeat;
     width: 570px;
     height: 570px;
@@ -469,7 +482,7 @@ a {
 .app {
     height: 516px;
     position: relative;
-    background-image: url(img/back.jpg)
+    background-image: url(../img/back.jpg)
 }
 
 .app .slider-text {
@@ -546,6 +559,9 @@ a {
     line-height: 26px;
     text-align: left;
 }
+.useful-info a:hover{
+    text-decoration: underline;
+}
 
 .useful-info .block {
     display: flex;
@@ -566,23 +582,49 @@ a {
 
 .subs {
     width: 358px;
+/*    display: flex;*/
 }
 
 .subs p {
     margin-bottom: 26px;
 }
-
-.subs input {
+.email{
+    display: flex;
+}
+.email input {
     width: 332px;
     height: 14px;
     padding: 15px 19px;
 
     color: #6c6c6c;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     text-align: left;
 
 }
+
+.email button {
+    float: left;
+    padding: 10px;
+    background: #6fbaf7;
+    color: white;
+    font-size: 25px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+.email button:hover {
+    background: #2196F3;
+    color: white;
+}
+
+.email button:active {
+    background: #0068bb;
+    color: white;
+}
+
 
 .copyrights {
     position: absolute;
@@ -605,7 +647,6 @@ a {
 }
 
 .copyrights .social-links {
-    background-image: url(img/social-links.png);
     width: 129px;
     height: 28px;
     display: flex;
@@ -618,3 +659,19 @@ a {
     width: 28px;
     height: 28px;
 }
+.icon{
+    display: block;
+    width: 28px;
+    height: 28px;
+    background-color: #6c6c6c;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.icon:hover {
+    background-color: #eaeaea;
+    color:  #6c6c6c;;
+} 
