@@ -31,7 +31,7 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .logo {
@@ -222,7 +222,6 @@ a {
 
 .sort .active-sort {
     color: #212121 !important;
-    font-size: 36px;
     font-weight: 700;
     border-bottom: 3px solid #212121 !important;
     text-align: left;
@@ -315,7 +314,7 @@ a {
 
 .middle h3 {
     color: #212121;
-    font-size: 21.91px;
+    font-size: 22px;
     font-weight: 700;
     padding-left: 58px;
     padding-right: 58px;
@@ -675,3 +674,52 @@ a {
     background-color: #eaeaea;
     color:  #6c6c6c;;
 } 
+.product-header {
+    position: relative;
+    height: 360px;
+    background-color: #f0f0f0;
+    
+}
+.product-header .slider-text{
+    bottom: 44px;
+}   
+.product .sort{
+    top:86px;
+    width: 660px;
+    justify-content: space-between;
+}
+
+.product .sort a{
+    font-size: 18px;
+    padding: 9px 25px;
+    
+}
+.product .trends {
+    height: 1965px;
+    position: relative;
+
+
+}
+.product .trends .item h2 {
+    top: 170px;
+    padding-left: 58px;
+    padding-right: 58px;
+}
+
+.refresh {
+        display: block;
+    width: 42px;
+    color: #212121;
+    font-size: 42px;
+    text-align: center;
+    position: absolute;
+        bottom: 0px;
+    left: 50%;
+    transition: 0.5s;
+}
+.refresh:hover{
+    transform: rotate(90deg);
+}
+.product .promo{
+    margin-top: 140px;
+}
