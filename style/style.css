@@ -205,6 +205,7 @@ a {
     display: flex;
     position: absolute;
     top: 99px;
+
 }
 
 .sort li {
@@ -701,6 +702,7 @@ a {
     top: 86px;
     width: 660px;
     justify-content: space-between;
+    text-transform: uppercase;
 }
 
 .product .sort a {
@@ -760,6 +762,7 @@ a {
 
 .contacts-page .shop-case {
     flex-wrap: nowrap;
+    display: block;
 }
 
 .contacts-page .item {
@@ -814,4 +817,159 @@ a {
 .text-info .adress {
     font-weight: 300;
     width: 280px;
+}
+
+.product-info-header {
+    position: relative;
+    height: 119px;
+    background-color: #fff;
+}
+
+.product-info-header .search-bar {
+    background-color: #fff;
+
+}
+
+.product-sort {
+    height: 70px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+
+}
+
+.product-sort .sort {
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+    height: 70px;
+}
+
+
+.product-sort .sort a {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    padding: 21px 15.5px;
+    border-bottom: none !important;
+    display: block;
+    line-height: 25px;
+
+}
+
+.product-sort .sort .active-sort {
+    color: #212121 !important;
+    font-weight: 700;
+    border-bottom: none;
+    text-align: left;
+}
+
+.product-sort .sort a:hover {
+    border-bottom: none;
+    color: #212121;
+    transition: all 0.2s;
+}
+
+.product-info-page .content {
+    height: 750px;
+    position: relative;
+    display: flex;
+    top: 70px;
+}
+
+.product-info-page .trends {
+    height: 700px;
+    display: block;
+}
+
+.product-slider {
+    width: 570px;
+    margin-right: 30px;
+    position: relative;
+
+}
+
+.product-slider .product-image {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.others {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.others .item {
+    height: 70px;
+    width: 70px;
+    top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.product-info {
+    width: 570px;
+    display: block;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+
+.product-info h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product-info h3 {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.price {
+
+    color: #212121;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.product-info .order-link {
+    width: 510px;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 22px;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+
+.sign {
+    font-size: 48px;
+}
+
+.value {
+    font-size: 72px;
+}
+
+.product-info .text {
+    /* Style for "The majest" */
+    width: 499px;
+    height: 244px;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.01px;
+    /* Text style for "The majest" */
+    letter-spacing: 0.4px;
+}
+
+.product-info .text p {
+    margin-bottom: 15px;
 }
